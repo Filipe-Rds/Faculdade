@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+
+body {
+  color: darkslategrey;
+  font-family: arial, sans-serif;
+  font-size: 17px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#copyright {
+  font-weight: bold;
+  font-style: italic;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: 'Audiowide', cursive;
+}
+
+h2 {
+  font-size: 24px;
+  background-color: lightskyblue;
+  border-radius: 5px;
+}
+
+h1,
+h2,
+a,
+a:visited {
+  color: darkblue;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+h1 a,
+h1 a:visited {
+  color: white;
+}
+h2 a,
+h2 a:visited {
+  color: lightskyblue;
+}
+h1:hover a,
+h2:hover a {
+  color: darkblue;
+}
+
+.material-icons {
+  font-size: 1rem;
+}
+
+p,
+.material-icons {
+  line-height: 1.5rem;
+}
+
+a .btn {
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+a .btn:hover {
+  color: white;
+  background-color: darkblue;
+  text-decoration: none;
+}
+
+#social {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+}
+
+#social a:hover {
+  text-decoration: none;
+}
+
+#social .fa-square-facebook {
+  color: navy;
+}
+
+#social .fa-square-twitter {
+  color: dodgerblue;
+}
+
+#social .fa-linkedin {
+  color: navy;
+}
+
+@media print {
+  body,
+  h1,
+  h2,
+  a,
+  h2 a {
+    color: black;
+    font-family: Times, serif;
+  }
+
+  h1#elon {
+    text-align: left;
+  }
+
+  h2 {
+    background-color: unset;
+  }
+
+  p a.topo {
+    color: transparent;
+  }
+}
