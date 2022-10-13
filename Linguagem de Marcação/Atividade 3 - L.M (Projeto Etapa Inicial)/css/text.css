@@ -1,0 +1,33 @@
+h1,
+p{
+  color: white;
+  text-align: center;
+}
+/*
+  Cor das Redes Sociais e contato:
+*/
+ki{
+  color:white;
+}
+i{
+  color: navy;
+}
+j{
+  color: dodgerblue;
+}
+k{
+  color: pink;
+}
+ji{
+  color:green;
+}
+#social{
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+html{
+  background-image: url("https://img.freepik.com/vetores-premium/fundo-vermelho-da-mostra-de-concerto-da-fase-da-cortina-resumo-e-conceito-de-papel-de-parede-de-fundo_10307-1095.jpg");
+  background-size: cover;
+  height: 1115px;
+}

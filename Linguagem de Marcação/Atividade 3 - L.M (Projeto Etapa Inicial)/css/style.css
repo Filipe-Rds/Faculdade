@@ -1,0 +1,93 @@
+@import url("./text.css");
+@import url('https://fonts.googleapis.com/css2?family=Turret+Road:wght@800&display=swap');
+
+
+*{
+  margin:0;
+  padding:0;
+}
+html {
+	background: url("../img/fundo4.jpg");
+	background-attachment: fixed;
+	background-size: auto;
+  color: white;
+} 
+.material-icons{
+  color: white;
+    
+}
+header a {
+	display: flex;
+	justify-content: right;
+	text-decoration-line: none;
+}
+header{
+  background-image: url("../img/capatech.png");
+	background-color: rgba(0, 0, 0, 0.4);
+	background-blend-mode: multiply;
+	background-attachment: fixed;
+  background-size: cover;
+  background-position:center;
+}
+header h1{
+  padding: 100px;
+  color: lightblue;
+	text-align: center;
+  font-size: 100px;
+  font-family: 'Turret Road', cursive;
+  border-bottom:0;
+  
+}
+.menu ul{
+  display: flex;
+  border: 1px solid #22aadd;
+  background-color: black;
+  border-radius: 5px;
+  font-size: 30px;
+}
+.menu li{
+  display:flex;
+  text-align: center;    
+  list-style-type: none;
+  flex-basis: 25%;
+}
+.menu li a{
+  flex-basis: 100%;
+  text-decoration: none;
+  color: white;
+  padding-bottom: 1px;
+  
+  
+}
+.menu li a:hover{
+  background: #22aadd;
+  transition: background .3s;
+}
+footer{
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  background-image: linear-gradient(#0B2161,#000000);
+  margin-bottom:0;
+}
+footer p{
+  font-size: 20px;
+  color: white;
+}
+#social{
+  color: white;
+  font-size: 1rem;
+}
+#copyright{
+  font-size: 12px;
+  font-weight: bold;
+  font-style: italic;
+}
+footer p a{
+  text-decoration-line: none;
+  color: white;
+}
+footer p a:hover{
+  color: dodgerblue;
+}
